@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap");
 
 * {
   margin: 0;
@@ -7,22 +9,28 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
   background: whitesmoke;
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+  align-items: baseline;
 }
 
 button {
   padding: 8px;
   outline: none;
   cursor: pointer;
-  border: 1px solid lightgray;
+  border: 1px solid #bc9bdd;
   border-radius: 5px;
   background: whitesmoke;
 }
 
 button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #bc9bdd;
 }
 
 .container {
@@ -45,7 +53,15 @@ header {
 
 #header button {
   font-family: inherit;
-  border: 1px solid red;
+  border: 1px solid #f6aa1c;
+}
+
+#header #logo {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2rem;
+  color: #f6aa1c;
+  display: flex;
+  align-items: center;
 }
 
 #create_card {
@@ -87,9 +103,10 @@ header {
 }
 
 .flashcard {
-  width: 370px;
-  height: 200px;
+  width: 20rem;
+  height: fit-content;
   word-wrap: break-word;
+  padding: 0.8rem;
   margin: 10px;
   background: #fff;
   cursor: pointer;
@@ -110,7 +127,7 @@ header {
 }
 
 .fa-minus:hover {
-  color: red;
+  color: #621708;
 }
 
 @media (max-width: 1280px) {

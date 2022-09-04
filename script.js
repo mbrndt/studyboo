@@ -30,11 +30,11 @@ flashcardMaker = (text, delThisIndex) => {
 
   question.setAttribute(
     "style",
-    "border-top:1px solid red; padding: 15px; margin-top:30px"
+    "border-top:1px solid #F6AA1C; padding: 15px; margin-top:30px"
   );
   question.textContent = text.my_question;
 
-  answer.setAttribute("style", "text-align:center; display:none; color:red");
+  answer.setAttribute("style", "display:none; color:#BC3908");
   answer.textContent = text.my_answer;
 
   del.className = "fas fa-minus";

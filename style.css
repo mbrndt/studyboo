@@ -156,7 +156,23 @@ header {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  #header {
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  #header #logo {
+    font-size: 1.5rem;
+  }
+
+  #logo img {
+    width: 3rem;
+    height: 3rem;
+  }
   .flashcard {
     margin: auto;
   }
@@ -173,6 +189,10 @@ header {
     gap: 10px;
     flex-direction: column;
     align-items: center;
+  }
+
+  #header #logo {
+    font-size: 1.5rem;
   }
 
   #create_card {

@@ -36,7 +36,7 @@ flashcardMaker = (text, delThisIndex) => {
 
   answer.setAttribute(
     "style",
-    "text-align:center; display:none; color:#BC3908"
+    "text-align:inherit; display:none; color:#BC3908"
   );
   answer.textContent = text.my_answer;
 

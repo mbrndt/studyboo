@@ -91,6 +91,7 @@ header {
 
 #create_card textarea {
   width: 100%;
+  padding: 7px;
   border-radius: 5px;
   font-family: inherit;
   border: 1px solid lightgray;

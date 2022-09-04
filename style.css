@@ -11,7 +11,7 @@
 body {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
-  background: whitesmoke;
+  background: bisque;
 }
 
 img {
@@ -54,6 +54,16 @@ header {
 
 #header button {
   font-family: inherit;
+}
+#delete_cards {
+  background-color: #bc3908;
+  color: #fff;
+}
+
+#show_card_box,
+#save_card {
+  background-color: #f6aa1c;
+  color: #fff;
 }
 
 #header #logo {
@@ -125,7 +135,7 @@ header {
   padding: 5px;
   font-size: 1rem;
   cursor: pointer;
-  color: #f6aa1c;
+  color: #bc3908;
 }
 
 .fa-minus {

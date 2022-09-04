@@ -34,10 +34,13 @@ flashcardMaker = (text, delThisIndex) => {
   );
   question.textContent = text.my_question;
 
-  answer.setAttribute("style", "display:none; color:#BC3908");
+  answer.setAttribute(
+    "style",
+    "text-align:center; display:none; color:#BC3908"
+  );
   answer.textContent = text.my_answer;
 
-  del.className = "fas fa-minus";
+  del.className = "fas fa-trash-alt";
   del.addEventListener("click", () => {
     contentArray.splice(delThisIndex, 1);
     localStorage.setItem("items", JSON.stringify(contentArray));
